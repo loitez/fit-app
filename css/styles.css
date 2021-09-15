@@ -1,0 +1,433 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Segoe UI Black Italic";
+    src: url(fonts/seguibli.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    font-family: "Roboto-Light", sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2ecc71;
+}
+
+main {
+    position: absolute;
+    z-index: -100;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+
+}
+
+.main-menu li {
+    display: inline-block;
+    color: white;
+    font-family: "Roboto-Bold", sans-serif;
+    margin-right: 40px;
+    position: relative;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.main-menu a:hover {
+    text-shadow:0 0 10px white;
+}
+
+
+.get-app:hover {
+    background: rgb(255, 255, 255, 0.4);
+    color: white;
+    box-shadow: 0 0 15px 1px rgb(255, 255, 255, 0.4);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+
+
+.main-menu div:first-of-type li {
+    font-family: "Segoe UI Black Italic", sans-serif;
+    font-size: 48px;
+    margin: 0;
+    margin-right: 300px;
+    color: rgb(244, 244, 244);
+    text-align: right;
+    -moz-transform: matrix( 0.80416209685643,0,0,0.80416209685643,0,0);
+    -webkit-transform: matrix( 0.80416209685643,0,0,0.80416209685643,0,0);
+    -ms-transform: matrix( 0.80416209685643,0,0,0.80416209685643,0,0);
+    padding: 0;
+    margin-top: -5px;
+}
+
+.main-menu li:last-child {
+    margin-left: 100px;
+}
+
+.get-app {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-family: "Roboto-Bold", sans-serif;
+    color: #2ecc71;
+    font-size: 18px;
+}
+
+
+.promo {
+    background-color: #2ecc71;
+    max-height: 791px;
+    position: relative;
+    z-index: -100;
+}
+
+.promo h2 span {
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.promo p,
+.promo h2 {
+    color: white;
+}
+
+.description {
+    display: flex;
+}
+
+.flex-column-1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto 130px auto 360px;
+    width: 31%;
+}
+
+.iphone {
+    z-index: 100;
+}
+
+.description .flex-column-1 .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icons img:first-child:hover {
+    transform: scale(1.1);
+}
+
+.icons img:last-child:hover {
+
+}
+
+.img:hover {
+    animation: 0.4s ease-in-out 0s normal none trambling-animation;
+}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+}
+
+
+.description h2 {
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+.description p,
+.text p {
+    white-space: pre-wrap;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.promo img:nth-child(2) {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+}
+
+.promo img:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 650px;
+}
+
+.promo img:nth-child(4) {
+    position: absolute;
+    top: 500px;
+    right: 320px;
+    z-index: -1;
+}
+
+.promo img:nth-child(5) {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.promo img:nth-child(6) {
+    position: absolute;
+    top: 660px;
+    left: 800px;
+}
+
+.calorie-app {
+    margin-top: 100px;
+}
+
+.general {
+    z-index: -100;
+    position: relative;
+}
+
+.features-general {
+    height: 794px;
+}
+
+.text {
+    color: #5a5a5a;
+    width: 30%;
+    float: right;
+    margin-right: 350px;
+    margin-top: 200px;
+}
+
+.text h3 {
+    font-size: 48px;
+}
+
+.green-text {
+    color: #2ecc71;
+}
+
+.iphone-2 {
+    position: absolute;
+    left: 300px;
+
+}
+
+.features img:first-child {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.features img:nth-child(2) {
+    position: absolute;
+    left: 770px;
+    top: 250px;
+}
+
+.features img:nth-child(3) {
+    position: absolute;
+    top: 435px;
+    left: 800px;
+}
+
+.features img:nth-child(4) {
+    position: absolute;
+    top: 525px;
+    left: 710px;
+}
+
+.features img:nth-child(5) {
+    position: absolute;
+    top: 115px;
+    left: 710px;
+}
+
+.features img:last-child {
+    position: absolute;
+    left: 400px;
+    top: 120px;
+    z-index: -1;
+}
+
+.simple-way {
+    color: #f9f9f9;
+    background-image: url("img/Photo-1.png");
+    height: 900px;
+    position: relative;
+}
+
+.text-simple-way {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 40%;
+}
+
+.elements img:first-child {
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    right: 200px;
+
+}
+
+.elements img:last-child {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.manage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 100px 0 100px 0;
+}
+
+.text-manage {
+    float: none;
+    margin: 0;
+    width: 30%;
+}
+
+.text-manage p {
+    width: 80%;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-general {
+    position: relative;
+    background-color: #2ecc71;
+    padding: 100px 0 100px 0;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.footer-text span {
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.footer-text h3 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.footer-text p {
+    white-space: pre-wrap;
+}
+
+.button-2 {
+    width: 200px;
+}
+
+
+.footer-general img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.footer-general img:nth-child(3) {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+
+.footer-general img:nth-child(4) {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.footer-general img:nth-child(5) {
+    position: absolute;
+    bottom: 0;
+    left: 450px;
+}
+
+.footer-general img:last-child {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+//*
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.main-menu li {
+    display: inline-block;
+    color: white;
+    font-family: "Roboto-Bold", sans-serif;
+    margin-right: 40px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.main-menu li:first-child {
+    font-family: "Segoe UI Black Italic", sans-serif;
+    font-size: 28px;
+    margin-right: 300px;
+}
+
+
+
+
+
+
+.Header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2000px;
+    height: 3844px;
+    z-index: 135;
+}
